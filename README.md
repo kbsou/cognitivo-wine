@@ -31,3 +31,7 @@ O problema deste tipo de modelo é que ele não generaliza bem para escores não
 Analisando a importância das variáveis dos três modelos, podemos ver que o teor alcóolico é de principal importância, seguid do variáveis diferentes para cada tipo de vinho.
 
 Me parece que o escore dos vinhos não segue uma relação muito clara com as variáveis dadas, o que faz certo sentido, pois se trata de uma medida subjetiva para cada avaliador humano.
+
+### Ambiente de Desenvolvimento
+
+O Modelo foi desenvolvido em um container docker (jupyter/datascience-notebook). Além dos pacotes já disponíveis na base, instalei o pacote yellowbrick
